@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    background-image: url('img/img2'); 
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ffffff; 
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.container:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.registration-success {
+    margin-top: 50px;
+}
+
+.registration-success h1 {
+    font-size: 36px;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.registration-success p {
+    font-size: 18px;
+    color: #666666;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.registration-success .btn-primary {
+    background-color: #764776;
+    border-color: #764776;
+}
+
+.registration-success .btn-primary:hover {
+    background-color: #0d1fed;
+    border-color: #5c365c;
+}
+
+.single-line {
+    white-space: nowrap;
+}
